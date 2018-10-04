@@ -1,11 +1,25 @@
 package learn.programming;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Iterator;
+
+
+
 public class TryGithunRepository {
 
 	public static void main(String[] args) {
-		 System.out.println("What do you want? ");
-		 System.out.println("The life is great");
-
-	}
+		ArrayList<String> list=new ArrayList<String>();//Creating arraylist  
+		list.add("Ravi");//Adding object in arraylist  
+		list.add("Vijay");  
+		list.add("Ravi");  
+		list.add("Ajay");  
+		//Traversing list through Iterator  
+		Iterator itr=list.iterator();  
+		while(itr.hasNext()){  
+		System.out.println(itr.next());  
+		}  
+		}  
 
 }
+
