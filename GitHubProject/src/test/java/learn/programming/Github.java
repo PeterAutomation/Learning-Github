@@ -8,7 +8,7 @@ public class Github {
 		 System.out.println("Baby");
           // One more pratice baby
 	 int a=5;
-	 int b=6;
-
+	 int b=6;  
+         double height=5.5;
 	}
 }
